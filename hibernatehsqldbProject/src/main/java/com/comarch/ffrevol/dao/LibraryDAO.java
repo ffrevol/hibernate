@@ -7,6 +7,5 @@ import com.comarch.ffrevol.model.Student;
 
 public interface LibraryDAO {
 	Student getStudent( int id );
-
 	Set<Book> getBookForStudent(int i);
 }
